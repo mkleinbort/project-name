@@ -1,0 +1,17 @@
+[project]
+name = "project-name"
+description = "placeholder name/description"
+version = "0.0.1"
+
+dependencies = [
+    "polars"
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff"
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
